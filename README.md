@@ -1,12 +1,10 @@
 # Sankey visualisation of Moodle quiz responses
 
-> Turning quiz data into actionable insight using Moodle or Inspera response data.
-
 ---
 
 ## About
 
-This repository supports the UNSW *Teaching News You Can Use* video created by **Marion Artigant**, School of Civil and Environmental Engineering, UNSW Sydney.
+This repository supports the UNSW *Teaching News You Can Use* video created by **Marion Artigant**, School of Civil and Environmental Engineering.
 
 This project provides .ipynb codes to visualise student responses from online quizzes (Moodle and/or Inspera) as Sankey flow diagrams from online quizzes, to help educators quickly identify:
 
@@ -21,28 +19,36 @@ By following the flow of responses, lecturers can transform raw quiz data into e
 
 ## Prerequisites
 
-To use the included Python notebook or scripts, you will need:
+To use the included Python notebook or scripts, you will need the following Python libraries:
 
+- `pandas` — for data manipulation and analysis  
+- `numpy` — for numerical computations  
+- `matplotlib` — for static data visualization  
+- `plotly` — for interactive data visualization  
 
-The current code provides examples for:
-- Moodle STACK questions
-- 
+Built-in Python modules used:
+- `os`
+- `os.path`
+
+### Installation
+
+You can install the required libraries using **pip**:
+
+```bash
+pip install pandas numpy matplotlib plotly
+```
 
 --- 
 
 ## Usage
 
-To use the Python tool, follow these steps:
+The current code provides examples for:
+- Moodle responses reports across multiple weeks
 
 ### Example output
 
+![Sample Chart](examples/images/weekly.png)
 
-### Advance use cases
 
- - Personalising response trees
- - Combining response
- - Re-ordering responses
 
---- 
 
-### 
