@@ -4,7 +4,7 @@
 
 ## About
 
-This repository supports the UNSW *Teaching News You Can Use* video created by **Marion Artigant**, School of Civil and Environmental Engineering.
+This repository supports the UNSW *Teaching News You Can Use* video created by **Marion Artigaut**, School of Civil and Environmental Engineering.
 
 This project provides .ipynb codes to visualise student responses from online quizzes (Moodle and/or Inspera) as Sankey flow diagrams from online quizzes, to help educators quickly identify:
 
