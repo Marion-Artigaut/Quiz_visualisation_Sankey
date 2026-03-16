@@ -42,6 +42,7 @@ conda install -c plotly plotly-orca
 
 The current code provides examples for:
 - Moodle responses reports across multiple weeks
+- Moodle STACK responses report including Error Carry Forward (ECF)
 
 ### Example output
 
